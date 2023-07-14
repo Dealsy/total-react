@@ -1,0 +1,20 @@
+# Ignore generated build folders:
+.next
+out
+
+# ignore config
+next.config.js
+tailwind.config.js
+
+# git related files
+_hooks
+.github
+.prettierrc
+
+
+# Auto gen
+**/.git
+**/.svn
+**/.hg
+**/node_modules
+node_modules
