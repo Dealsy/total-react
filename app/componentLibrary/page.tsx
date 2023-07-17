@@ -4,7 +4,7 @@ import { useState } from 'react'
 import Button from '../components/button'
 import Header from '../components/headings'
 import { AnimatedEditor } from '../components/animatedEditor'
-import { TestChallenge } from '../challengers/challengers'
+import { TestChallenge } from '../challengers/sectionOne/challengers'
 
 export default function ComponentLibrary() {
   const initialCode = TestChallenge
