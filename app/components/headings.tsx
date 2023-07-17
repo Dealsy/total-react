@@ -33,7 +33,8 @@ export default function Header({ className, headerStyle, heading }: HeaderProps)
           `bg-inherit 
             px-4 
             py-2
-            text-6xl
+            md:text-6xl
+            text-2xl
             `
       )}
     >

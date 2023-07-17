@@ -73,6 +73,17 @@ export default function Home() {
       <div className="flex flex-row justify-center flex-wrap gap-10">
         <Link href="/componentRender">
           <Card status="free">
+            <CardTitle> What is React? </CardTitle>
+            <Pill status="free" text="Free" />
+            <p>
+              In this section we ask the question that is, what is React and why should we
+              use it?
+            </p>
+            <p>Will discuss why to use React, and when we should use it.</p>
+          </Card>
+        </Link>
+        <Link href="/componentRender">
+          <Card status="free">
             <CardTitle> Components </CardTitle>
             <Pill status="free" text="Free" />
             <p>
@@ -126,9 +137,37 @@ export default function Home() {
             </ul>
           </Card>
         </Link>
-        <Link href="/componentRender">
+        <Link href="/advancedHooks/AdvancedHooks">
           <Card status="paid">
             <CardTitle> Advanced hooks </CardTitle>
+            <Pill status="paid" text="Paid" />
+            <p>In this section we will learn about advanced hooks</p>
+            <p> These include:</p>
+            <ul className="list-disc px-5">
+              <li>useMemo</li>
+              <li>useCallback</li>
+              <li>useRef</li>
+              <li>many more..</li>
+            </ul>
+          </Card>
+        </Link>
+        <Link href="/componentRender">
+          <Card status="paid">
+            <CardTitle> Custom Hooks </CardTitle>
+            <Pill status="paid" text="Paid" />
+            <p>In this section we will learn about advanced hooks</p>
+            <p> These include:</p>
+            <ul className="list-disc px-5">
+              <li>useMemo</li>
+              <li>useCallback</li>
+              <li>useRef</li>
+              <li>many more..</li>
+            </ul>
+          </Card>
+        </Link>
+        <Link href="/componentRender">
+          <Card status="paid">
+            <CardTitle> Next JS </CardTitle>
             <Pill status="paid" text="Paid" />
             <p>In this section we will learn about advanced hooks</p>
             <p> These include:</p>
