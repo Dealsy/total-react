@@ -128,9 +128,16 @@ export default function Home() {
         </Link>
         <Link href="/componentRender">
           <Card status="paid">
-            <CardTitle> Conditional Rendering </CardTitle>
+            <CardTitle> Advanced hooks </CardTitle>
             <Pill status="paid" text="Paid" />
-            <p>In this section we will learn how to conditionally render components</p>
+            <p>In this section we will learn about advanced hooks</p>
+            <p> These include:</p>
+            <ul className="list-disc px-5">
+              <li>useMemo</li>
+              <li>useCallback</li>
+              <li>useRef</li>
+              <li>many more..</li>
+            </ul>
           </Card>
         </Link>
 
