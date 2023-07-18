@@ -3,13 +3,15 @@ import clsx from 'clsx'
 type WarningProps = {
   children: React.ReactNode
   type: 'warning' | 'info' | 'success' | 'danger'
+  className?: string
 }
 
-export default function Warning({ children, type }: WarningProps) {
+export default function Warning({ children, type, className }: WarningProps) {
   return (
     <p
       className={clsx(
-        type === 'warning' &&
+        className &&
+          type === 'warning' &&
           'bg-[#aa8231] p-5 rounded-xl text-base border-2 border-yellow-300',
         type === 'info' &&
           'bg-[#335cb7] p-5 rounded-xl text-base border-2 border-blue-500',

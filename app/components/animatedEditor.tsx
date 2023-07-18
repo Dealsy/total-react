@@ -33,7 +33,7 @@ export function AnimatedEditor({
           <motion.div
             className={clsx(
               'absolute top-0 left-0 right-0 text-left px-5 py-4',
-              'rounded-t-md text-white font-bold bg-gradient-to-r from-green-700 via-green-500 to-green-300',
+              'text-white rounded-t-md font-bold bg-gradient-to-r from-green-700 via-green-500 to-green-300',
               'md:py-3 md:px-10 md:mx-30 md:mt-5'
             )}
             initial={{ opacity: 0 }}
