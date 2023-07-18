@@ -1,11 +1,11 @@
 import clsx from 'clsx'
 import './globals.css'
 import type { Metadata } from 'next'
-import { Inter, Grandstander } from 'next/font/google'
+import { Inter, PT_Serif } from 'next/font/google'
 import Nav from './components/nav'
 import { UserProvider } from '@auth0/nextjs-auth0/client'
 
-const grandstander = Grandstander({ subsets: ['latin'], weight: '600' })
+const pt_Serif = PT_Serif({ subsets: ['latin'], weight: ['400'] })
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
@@ -18,7 +18,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en">
       <UserProvider>
         <body className={clsx(' flex flex-col justify-evenly')}>
-          <div className={clsx(grandstander.className, 'flex')}>
+          <div
+            className={clsx(pt_Serif.className, 'flex sticky top-0 z-50 bg-[#0a1224]')}
+          >
             <Nav />
           </div>
           <div className={inter.className}>{children}</div>

@@ -76,7 +76,7 @@ export default function Home() {
           </p>
 
           <Warning type="info">
-            Whilst this site is supported on mobile, Its highly reccomended that you go
+            Whilst this site is supported on mobile, we highly reccomend that you go
             through this on your PC for a better exprience.
           </Warning>
         </Paragraph>
